@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+body {
+	background-image: url(melia.png);
+	background-size: 20%;
+	background-color: #7a7a7a;
+	height: 650px;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+header{
+	height: 60px;
+	background: #262626;
+	z-index: 2;
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.content-home {
+	text-align: center;
+}
+nav{
+	float: right;
+	line-height: 60px;
+}
+nav a{
+	font-family: Verdana;
+	color: #F0FFFF;
+	letter-spacing: 2px;
+	font-size: 15px;
+	margin-right: 210px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 1;
+  background: #404040;
+  color: #000;
+}
+.links {
+   float: left;
+}
+.links a {
+	margin-right: 100px;
+	font-family: Verdana;
+	color: #F0FFFF;
+	letter-spacing: 1px;
+	font-size: 10px;
+	margin-right: 10px;
+}
+.links img {
+	width: 30px;
+	line-height: 60px;
+	border-radius: 50%;
+}
+#copyright {
+	margin-right: 20px;
+	float: right;
+	line-height: 40px;
+	font-size: 20px;
+	font-family: Verdana;
+	color: #F0FFFF;
+	letter-spacing: 1px;
+}
+#yt-image {
+	border-radius: 60%;
+}
+#pagelink a {
+	left: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+	font-size: 30px;
+	font-family: Impact;
+	text-decoration: none;
+	letter-spacing: 3px;
+	color: #fff;
+}
